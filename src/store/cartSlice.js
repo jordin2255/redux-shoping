@@ -6,6 +6,9 @@ const cartSlice=createSlice({
   reducers:{
     increaseCartValue(state){
       state.cartValue=state.cartValue+1;
+    },
+    decreaseCartValue(state){
+      state.cartValue=state.cartValue-1;
     }
   }
 });
